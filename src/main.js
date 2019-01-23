@@ -8,8 +8,14 @@ import publicRouter from './router/public.js';
 Vue.config.productionTip = false
 Vue.use(Router,publicRouter);
 // 导入自定义路由模块
-
-
+// import router from './router'
+import HeaderNav from './components/Header'
+import foot from './components/footer'
+Vue.config.productionTip = false
+// Vue.use(HeaderNav)
+Vue.component('header-nav', HeaderNav)
+Vue.component('foot', foot)
+/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,

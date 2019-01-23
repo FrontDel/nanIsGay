@@ -5,16 +5,16 @@ import BlogList from '@/Blog/BlogList'
 Vue.use(Router)
 export default new Router({
   routes: [
+		
 		{
 			path: '/',
-			name: 'BlogList',
-			component: BlogList
-		},
-		{
-			path: '/Blog',
 			name: 'Blog',
 			component: Blog
 		},
-		
+		{
+			path: '/BlogList',
+			name: 'BlogList',
+			component: BlogList
+		},
   ]
 })
