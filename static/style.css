@@ -1,0 +1,25 @@
+	@media screen and (max-width:1280px) and (min-width:768px) {
+		html {
+			font-size: 60px!!important;
+		}
+	}
+	@media screen and (max-width:1360px) and (min-width:1280px) {
+		html {
+			font-size: 70px!!important;
+		}
+	}
+	@media screen and (max-width:1440px) and (min-width:1360px) {
+		html {
+			font-size: 80px!!important;
+		}
+	}
+	@media screen and (max-width:1680px) and (min-width:1400px) {
+		html {
+			font-size: 90px!!important;
+		}
+	}
+	@media screen and (max-width:1500px) {
+		html{
+			font-size: 60px;
+		}
+	}
